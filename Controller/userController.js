@@ -54,7 +54,7 @@ const loginUser = (async (req,res)=>{
 
  }
  catch(error){
-  return res.status(500).json(error.message);
+  return res.status(500).json("un expected error occured");
 }
 })
 
